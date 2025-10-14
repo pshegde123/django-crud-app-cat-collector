@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'catcollector.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE':'django.db.backends.postgresql',
         'NAME': 'catcollector',
     }
 }
